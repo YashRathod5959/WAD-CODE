@@ -1,0 +1,61 @@
+<!-- 
+    open virtual box
+    click on new
+    Name-for ex.vm1
+    select iso image-amd64.iso
+    Type-linux
+    version-ubuntu-64bit
+    click on next and next 
+    in virtual hardisk select use an exixitin g viual hardisks
+    select that harddidsk from foilder
+    next finish
+    reopeat process for vm2
+
+    file
+    tools
+    network manager
+    nat network
+    above create
+    rename if you want 
+    apply
+
+
+    select vm1
+    settings
+    network
+    adapter1
+    attached to NAT Netwrok
+    remname wala name select 
+    ok
+
+    apply same setting for vm2
+
+    then boot both vm
+
+    vm1 terminal 
+    ifconfig
+
+
+    vm2 terminal
+
+    ifconfig
+
+    ls
+    nano tranfer.txt
+    add content contro x control y enter
+
+    cat transfer.txt
+    to see data
+
+    scp tranfer.txt vm1_name@ipofvm1(You get it from ifconfig):/home/vm1
+
+    password
+
+    vm1 terminal 
+    ls 
+    cat tranfer.txt
+
+
+
+
+ -->
